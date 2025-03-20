@@ -9,7 +9,7 @@ type HeaderHeroProps = {
 
 export function HeaderHero({ show }: HeaderHeroProps) {
   return (
-    <header className={`${show ? "hidden" : "block"} top-0 left-1/2 -translate-x-1/2 absolute container mx-auto flex justify-between items-center `}>
+    <header className={`${show ? "hidden" : "block"} top-0 left-1/2 -translate-x-1/2 absolute container mx-auto flex justify-between items-center px-4`}>
       <div className="flex gap-4">
         {
           linksHeader.map(({ title, url }, index) => {
