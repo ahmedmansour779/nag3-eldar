@@ -1,1 +1,15 @@
+@tailwind utilities;
 @import "tailwindcss";
+
+
+
+* {
+    font-family: "Baloo Bhaijaan 2", "sans-serif";
+}
+
+@theme {
+    --color-primary: #A31D1D;
+    --color-secondary: #6D2323;
+    --color-third: #E5D0AC;
+    --color-fourth: #FEF9E1;
+}
