@@ -3,7 +3,7 @@ import { OneCardServices } from "../OneCardServices";
 
 export function ServicesSection() {
   return (
-    <section className="container mx-auto px-4 gap-4 py-12 grid sm:grid-cols-2 grid-cols-1">
+    <section className="container mx-auto px-4 gap-8 py-12 grid sm:grid-cols-2 grid-cols-1">
       {
         servicesItems.map(({ description, image, title, url }, index) => {
           return (

@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/no-page-custom-font */
 import type { Metadata } from "next";
+import { Footer } from "./components/Footer";
 import { metadataHome } from "./meta/metadata";
 import "./styles/globals.css";
 
@@ -13,6 +14,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
       </head>
       <body >
         {children}
+        <Footer />
       </body>
     </html>
   );

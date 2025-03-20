@@ -15,6 +15,7 @@ export function OneCardServices({ description, image, title, url }: OneCardServi
         alt={title}
         src={image}
         title={title}
+        placeholder="blur"
         className="h-96 rounded-3xl"
       />
       <div className="w-full p-4 flex flex-col gap-2">

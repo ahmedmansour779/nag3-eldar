@@ -14,7 +14,6 @@ export function HeroSection() {
       <Image
         alt="imageBackground"
         src={srcImage}
-        placeholder="blur"
         quality={100}
         fill
         objectFit="cover"
