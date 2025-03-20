@@ -8,7 +8,7 @@ type TextHeroProps = {
 
 export function TextHero({ setShow, show }: TextHeroProps) {
   return (
-    <div className={`${show ? "hidden" : "block"} absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex flex-col gap-8 items-center justify-center `}>
+    <div className={`${show ? "hidden" : "block"} absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex flex-col gap-8 items-center justify-center text-center`}>
       <p className="text-6xl text-secondary">
         رسالة تعريفية
       </p>
