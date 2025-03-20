@@ -8,7 +8,7 @@ export const linksHeader = [
         title: "الاخبار"
     },
     {
-        url: "/pharmaceutical",
+        url: "/medicines",
         title: "الأدوية"
     },
 ]

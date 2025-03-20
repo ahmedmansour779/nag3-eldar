@@ -18,7 +18,7 @@ export function HeroSection() {
         quality={100}
         fill
         objectFit="cover"
-        className="-z-10 w-lvw h-lvh bg-cover bg-no-repeat bg-center bg-fixed"
+        className=" w-lvw h-lvh bg-cover bg-no-repeat bg-center bg-fixed"
       />
       <div className={`${show ? "hidden" : "block"} absolute inset-0 bg-black opacity-20 z-0`}></div>
       <HeaderHero show={show} />

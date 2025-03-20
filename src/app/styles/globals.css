@@ -1,8 +1,6 @@
 @tailwind utilities;
 @import "tailwindcss";
 
-
-
 * {
     font-family: "Baloo Bhaijaan 2", "sans-serif";
 }
