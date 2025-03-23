@@ -1,6 +1,7 @@
 /* eslint-disable @next/next/no-page-custom-font */
 import type { Metadata } from "next";
 import { Footer } from "./components/Footer";
+import { Header } from "./components/Header";
 import { metadataHome } from "./meta/metadata";
 import "./styles/globals.css";
 
@@ -13,6 +14,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400..800&display=swap" rel="stylesheet" />
       </head>
       <body >
+        <Header />
         {children}
         <Footer />
       </body>
