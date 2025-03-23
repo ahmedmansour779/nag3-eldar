@@ -2,6 +2,7 @@
 import type { Metadata } from "next";
 import { Footer } from "./components/Footer";
 import { Header } from "./components/Header";
+import { ToTop } from "./components/ToTop";
 import { metadataHome } from "./meta/metadata";
 import "./styles/globals.css";
 
@@ -17,6 +18,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         <Header />
         {children}
         <Footer />
+        <ToTop />
       </body>
     </html>
   );
