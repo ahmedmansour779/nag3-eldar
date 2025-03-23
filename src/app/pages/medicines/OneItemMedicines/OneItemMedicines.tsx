@@ -13,7 +13,7 @@ type OneItemMedicinesProps = {
 export function OneItemMedicines({ image, count, description, name, use, id }: OneItemMedicinesProps) {
   return (
     <div className="w-full p-1 text-right flex items-end flex-col gap-3">
-      <Link href={"/medicines/" + id}>
+      <Link href={"/medicines/" + id} className="w-full">
         <Image
           alt="شباب نجع الدار"
           title="شباب نجع الدار"
