@@ -5,7 +5,7 @@ import { Footer } from "./components/Footer";
 import { Header } from "./components/Header";
 import { Loader } from "./components/Loader";
 import { ToTop } from "./components/ToTop";
-import { metadataHome } from "./meta/metadata";
+import { metadataHome } from "./data/meta/metadata";
 import "./styles/globals.css";
 
 export const metadata: Metadata = metadataHome;
@@ -16,7 +16,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
       <head>
         <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400..800&display=swap" rel="stylesheet" />
       </head>
-      <body >
+      <body>
         <Suspense fallback={<Loader />}>
           <Header />
           {children}
