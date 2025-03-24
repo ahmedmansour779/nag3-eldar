@@ -10,7 +10,7 @@ export function HeroSection() {
   const [show, setShow] = useState<boolean>(false)
   return (
     <section
-      className="w-full h-lvh overflow-hidden relative">
+      className="w-full sm:h-lvh h-[60vh] overflow-hidden relative">
       <Image
         alt="imageBackground"
         src={srcImage}

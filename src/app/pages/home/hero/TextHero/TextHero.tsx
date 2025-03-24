@@ -9,13 +9,13 @@ type TextHeroProps = {
 export function TextHero({ setShow, show }: TextHeroProps) {
   return (
     <div className={`${show ? "hidden" : "block"} absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex flex-col gap-8 items-center justify-center text-center`}>
-      <p className="text-6xl text-secondary">
+      <p className="sm:text-6xl text-3xl text-secondary">
         رسالة تعريفية
       </p>
-      <p className="text-xl text-fourth">
+      <p className="sm:text-xl text-sm text-fourth">
         من نحن؟ ماذا نقدم؟ وما هدفنا؟
       </p>
-      <WorldIcon className="hover:cursor-pointer" onClick={() => setShow(true)} />
+      <WorldIcon className="hover:cursor-pointer sm:w-20 w-14" onClick={() => setShow(true)} />
     </div>
   );
 }

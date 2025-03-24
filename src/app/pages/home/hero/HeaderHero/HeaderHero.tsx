@@ -27,7 +27,7 @@ export function HeaderHero({ show }: HeaderHeroProps) {
           title="شباب نجع الدار"
           src={srcImage}
           placeholder="blur"
-          className="h-28 w-fit"
+          className="sm:h-28 h-20 w-fit"
         />
       </Link>
     </header>
