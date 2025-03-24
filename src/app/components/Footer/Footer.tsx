@@ -6,7 +6,7 @@ import Link from "next/link";
 export function Footer() {
   return (
     <footer className="bg-third text-secondary">
-      <div className="container mx-auto px-4 flex justify-between py-4 items-center">
+      <div className="container mx-auto px-4 sm:flex justify-between py-4 items-center grid grid-cols-2 grid-rows-2">
         <div className="flex flex-col gap-2 items-center">
           <div className="flex gap-2">
             <Link href="https://www.facebook.com/profile.php?id=61559455807819" title="facebook-amt">
@@ -20,7 +20,7 @@ export function Footer() {
             <CIcon />2025 AMT Team
           </Link>
         </div>
-        <p >
+        <p className="col-span-2 row-start-1 col-start-1 text-center">
           AMT صنع بحب بواسطة فريق
         </p>
         <Image
@@ -28,7 +28,7 @@ export function Footer() {
           title="شباب نجع الدار"
           src={srcImage}
           placeholder="blur"
-          className="h-20 w-fit"
+          className="h-20 w-fit sm:mx-0 mx-auto"
         />
       </div>
     </footer>
