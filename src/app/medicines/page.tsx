@@ -3,7 +3,7 @@ import { ItemsMedicines } from "../pages/medicines/ItemsMedicines";
 import { NavBarMedicines } from "../pages/medicines/NavBarMedicines";
 import { SearchBarMedicines } from "../pages/medicines/SearchBarMedicines";
 
-export default function Medicines() {
+export default function Page() {
     return (
         <div className="bg-fourth">
             <HeroMedicines />

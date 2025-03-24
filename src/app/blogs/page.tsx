@@ -1,5 +1,5 @@
 
-export default function Medicines() {
+export default function Page() {
     return (
         <div className="bg-fourth">
             الاخبار
